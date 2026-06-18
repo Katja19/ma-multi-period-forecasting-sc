@@ -1,0 +1,15 @@
+Model,Wrapper,Datensatz,RMSSE_total
+gns,baseline,bakery,1.1837182036318652
+gns,baseline,m5,0.8358139980491774
+lgbm,direct,bakery,0.7385325891683161
+lgbm,direct,m5,0.7175064636441635
+lgbm,mimo,bakery,0.7378152042515389
+lgbm,mimo,m5,0.7175775493044896
+nhits,native,bakery,0.6815400523578725
+nhits,native,m5,0.7070948101630968
+tft,native,bakery,0.6466202248595578
+tft,native,m5,0.6630504111440656
+xgb,direct,bakery,0.7440418699511275
+xgb,direct,m5,0.7079107759790929
+xgb,mimo,bakery,0.7440418699511276
+xgb,mimo,m5,0.7079107759790928

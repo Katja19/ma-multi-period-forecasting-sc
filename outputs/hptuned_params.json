@@ -1,0 +1,150 @@
+{
+  "xgboost": {
+    "mimo": {
+      "bakery": {
+        "n_estimators": 450,
+        "learning_rate": 0.14331600899238364,
+        "max_depth": 8,
+        "min_child_weight": 5.202124659487096,
+        "subsample": 0.7877872251131166,
+        "colsample_bytree": 0.7237606657020134,
+        "reg_lambda": 0.017274813018379173,
+        "reg_alpha": 0.05782248488398994,
+        "gamma": 0.6270930469732452,
+        "max_bin": 256,
+        "random_state": 42,
+        "n_jobs": 6,
+        "verbosity": 0,
+        "tree_method": "hist",
+        "predictor": "auto",
+        "objective": "reg:squarederror"
+      },
+      "m5": {
+        "n_estimators": 600,
+        "learning_rate": 0.0687160146597487,
+        "max_depth": 8,
+        "min_child_weight": 5.69334758799632,
+        "subsample": 0.803528715484891,
+        "colsample_bytree": 0.7195617862172092,
+        "reg_lambda": 0.12065175986301928,
+        "reg_alpha": 0.3894514034521537,
+        "gamma": 0.32512072176690865,
+        "max_bin": 128,
+        "random_state": 42,
+        "n_jobs": 6,
+        "verbosity": 0,
+        "tree_method": "hist",
+        "predictor": "auto",
+        "objective": "reg:squarederror"
+      }
+    },
+    "direct": {
+      "bakery": {
+        "n_estimators": 450,
+        "learning_rate": 0.14331600899238364,
+        "max_depth": 8,
+        "min_child_weight": 5.202124659487096,
+        "subsample": 0.7877872251131166,
+        "colsample_bytree": 0.7237606657020134,
+        "reg_lambda": 0.017274813018379173,
+        "reg_alpha": 0.05782248488398994,
+        "gamma": 0.6270930469732452,
+        "max_bin": 256,
+        "random_state": 42,
+        "n_jobs": 6,
+        "verbosity": 0,
+        "tree_method": "hist",
+        "predictor": "auto",
+        "objective": "reg:squarederror"
+      },
+      "m5": {
+        "n_estimators": 600,
+        "learning_rate": 0.0687160146597487,
+        "max_depth": 8,
+        "min_child_weight": 5.69334758799632,
+        "subsample": 0.803528715484891,
+        "colsample_bytree": 0.7195617862172092,
+        "reg_lambda": 0.12065175986301928,
+        "reg_alpha": 0.3894514034521537,
+        "gamma": 0.32512072176690865,
+        "max_bin": 128,
+        "random_state": 42,
+        "n_jobs": 6,
+        "verbosity": 0,
+        "tree_method": "hist",
+        "predictor": "auto",
+        "objective": "reg:squarederror"
+      }
+    }
+  },
+  "lightgbm": {
+    "mimo": {
+      "m5": {
+        "n_estimators": 900,
+        "learning_rate": 0.09891334253418814,
+        "num_leaves": 64,
+        "max_depth": 6,
+        "min_child_samples": 120,
+        "subsample": 0.8310835076096333,
+        "colsample_bytree": 0.7356194338012196,
+        "reg_lambda": 0.01041690310524204,
+        "reg_alpha": 0.08698921683068303,
+        "max_bin": 165,
+        "random_state": 42,
+        "n_jobs": 6,
+        "verbosity": -1,
+        "force_col_wise": true
+      },
+      "bakery": {
+        "n_estimators": 800,
+        "learning_rate": 0.060188474615101045,
+        "num_leaves": 64,
+        "max_depth": 8,
+        "min_child_samples": 80,
+        "subsample": 0.7662429512629907,
+        "colsample_bytree": 0.8524040446464395,
+        "reg_lambda": 0.1286350102750208,
+        "reg_alpha": 0.4901372206461584,
+        "max_bin": 181,
+        "random_state": 42,
+        "n_jobs": 6,
+        "verbosity": -1,
+        "force_col_wise": true
+      }
+    },
+    "direct": {
+      "m5": {
+        "n_estimators": 900,
+        "learning_rate": 0.09891334253418814,
+        "num_leaves": 64,
+        "max_depth": 6,
+        "min_child_samples": 120,
+        "subsample": 0.8310835076096333,
+        "colsample_bytree": 0.7356194338012196,
+        "reg_lambda": 0.01041690310524204,
+        "reg_alpha": 0.08698921683068303,
+        "max_bin": 165,
+        "random_state": 42,
+        "n_jobs": 6,
+        "verbosity": -1,
+        "force_col_wise": true
+      },
+      "bakery": {
+        "n_estimators": 800,
+        "learning_rate": 0.060188474615101045,
+        "num_leaves": 64,
+        "max_depth": 8,
+        "min_child_samples": 80,
+        "subsample": 0.7662429512629907,
+        "colsample_bytree": 0.8524040446464395,
+        "reg_lambda": 0.1286350102750208,
+        "reg_alpha": 0.4901372206461584,
+        "max_bin": 181,
+        "random_state": 42,
+        "n_jobs": 6,
+        "verbosity": -1,
+        "force_col_wise": true
+      }
+    }
+  }
+}

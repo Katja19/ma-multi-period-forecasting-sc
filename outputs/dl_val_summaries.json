@@ -1,0 +1,174 @@
+{
+  "nhits": {
+    "native": {
+      "m5": [
+        {
+          "timestamp": "2025-09-20T16:41:37Z",
+          "used_params": {
+            "output_chunk_length": 28,
+            "random_state": 42
+          },
+          "val_days": 28,
+          "meta": {
+            "early_stopping": true,
+            "checkpointing": true
+          }
+        },
+        {
+          "timestamp": "2025-09-20T18:24:34Z",
+          "used_params": {
+            "output_chunk_length": 28,
+            "random_state": 42
+          },
+          "val_days": 28,
+          "meta": {
+            "early_stopping": true,
+            "checkpointing": true
+          }
+        },
+        {
+          "timestamp": "2025-09-20T18:34:33Z",
+          "used_params": {
+            "output_chunk_length": 28,
+            "random_state": 42
+          },
+          "val_days": 28,
+          "meta": {
+            "early_stopping": true,
+            "checkpointing": true
+          }
+        }
+      ],
+      "bakery": [
+        {
+          "timestamp": "2025-09-20T18:40:06Z",
+          "used_params": {
+            "output_chunk_length": 28,
+            "random_state": 42
+          },
+          "val_days": 28,
+          "meta": {
+            "early_stopping": true,
+            "checkpointing": true
+          }
+        }
+      ]
+    }
+  },
+  "tft": {
+    "native": {
+      "m5": [
+        {
+          "timestamp": "2025-09-20T19:31:14Z",
+          "used_params": {
+            "output_chunk_length": 28,
+            "random_state": 42
+          },
+          "val_days": 28,
+          "meta": {
+            "early_stopping": true,
+            "checkpointing": true
+          }
+        },
+        {
+          "timestamp": "2025-09-20T19:55:20Z",
+          "used_params": {
+            "output_chunk_length": 28,
+            "random_state": 42
+          },
+          "val_days": 28,
+          "meta": {
+            "early_stopping": true,
+            "checkpointing": true
+          }
+        },
+        {
+          "timestamp": "2025-09-20T20:51:43Z",
+          "used_params": {
+            "output_chunk_length": 28,
+            "random_state": 42
+          },
+          "val_days": 28,
+          "meta": {
+            "early_stopping": true,
+            "checkpointing": true
+          }
+        },
+        {
+          "timestamp": "2025-09-20T21:24:11Z",
+          "used_params": {
+            "output_chunk_length": 28,
+            "random_state": 42
+          },
+          "val_days": 28,
+          "meta": {
+            "early_stopping": true,
+            "checkpointing": true
+          }
+        },
+        {
+          "timestamp": "2025-09-20T23:25:07Z",
+          "used_params": {
+            "output_chunk_length": 28,
+            "random_state": 42
+          },
+          "val_days": 28,
+          "meta": {
+            "early_stopping": true,
+            "checkpointing": true
+          }
+        }
+      ],
+      "bakery": [
+        {
+          "timestamp": "2025-09-20T21:51:08Z",
+          "used_params": {
+            "output_chunk_length": 28,
+            "random_state": 42
+          },
+          "val_days": 28,
+          "meta": {
+            "early_stopping": true,
+            "checkpointing": true
+          }
+        },
+        {
+          "timestamp": "2025-09-20T22:13:35Z",
+          "used_params": {
+            "output_chunk_length": 28,
+            "random_state": 42
+          },
+          "val_days": 28,
+          "meta": {
+            "early_stopping": true,
+            "checkpointing": true
+          }
+        },
+        {
+          "timestamp": "2025-09-20T22:36:41Z",
+          "used_params": {
+            "output_chunk_length": 28,
+            "random_state": 42
+          },
+          "val_days": 28,
+          "meta": {
+            "early_stopping": true,
+            "checkpointing": true
+          }
+        },
+        {
+          "timestamp": "2025-09-20T23:13:46Z",
+          "used_params": {
+            "output_chunk_length": 28,
+            "random_state": 42
+          },
+          "val_days": 28,
+          "meta": {
+            "early_stopping": true,
+            "checkpointing": true
+          }
+        }
+      ]
+    }
+  }
+}
