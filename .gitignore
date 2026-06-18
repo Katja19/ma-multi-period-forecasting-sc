@@ -1,0 +1,83 @@
+# Ignore specific files and folders
+temp/
+archive/
+
+# Ignore Python bytecode
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Ignore virtual environment
+venv/
+env/
+.venv/
+.env/
+
+# Ignore big files
+**/m5_boxplot_multiple.json
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore ydata profiling reports that are saved as html files in the directory src/0_eda/reports/
+src/0_eda/reports/*.html
+*.html
+
+src/1_modelling/temp
+outputs/wandb/
+src/1_modelling/saved
+src/1_modelling/checkpoints
+temp.py
+sqlite_csv_cheatsheet.md
+
+# But allow folders inside data to be tracked/traversed
+!data/**/
+
+data/**/*.csv
+data/**/*.zip
+!data/README.md
+
+# Ignore data files
+#*.csv
+*.h5
+*.pkl
+
+
+# Ignore log files
+*.log
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore build files
+build/
+dist/
+*.egg-info/
+
+# Ignore coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# Ignore pytest cache
+.pytest_cache/
+
+# Ignore mypy cache
+.mypy_cache/
+
+# Ignore temporary files
+*.tmp
+*.temp
+tree.txt
+
+# Temp ignore for testing github pages deployment
+site/
+
+# ignore big boxplot json files for showcase version
+docs/assets/json/m5/m5_boxplot_multiple*.json
+docs/assets/json/bakery/boxplot_multiple.json
