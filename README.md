@@ -3,7 +3,7 @@ Autor: Katja Gegg
 Universität: Julius-Maximilian Universität Würzburg
 
 ## Dokumentation
-Eine genauere Dokumentation findet sich hier: https://katja19.github.io/multi-period-forecasting/
+Eine genauere Dokumentation findet sich hier: https://katja19.github.io/ma-multi-period-forecasting-sc/
 
 ## Setup-Anleitung (im VSC-Terminalfenster)
 1. Stelle sicher, dass du dich im Projektverzeichnis befindest.
