@@ -1,0 +1,27 @@
+/* Custom table header color */
+.md-typeset table th {
+    background-color: #4051b5; /* Green header */
+    color: white; /* White text in header */
+}
+
+/* Custom table row color on hover */
+.md-typeset table tr:hover {
+    background-color: #f2f2f2; /* Light grey when hovering over rows */
+}
+
+/* Custom table cell color */
+.md-typeset table td {
+    color: #333; /* Dark text color */
+    background-color: #f9f9f9; /* Light background color */
+}
+
+/* Custom table border */
+.md-typeset table, .md-typeset th, .md-typeset td {
+    border: 1px solid #ddd; /* Light border color */
+    border-collapse: collapse;
+}
+
+/* hover effect on table row */
+.md-typeset table tr:hover {
+    background-color: #f2f2f2;
+}
