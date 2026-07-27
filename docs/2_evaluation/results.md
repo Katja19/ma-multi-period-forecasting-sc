@@ -10,5 +10,5 @@
 
 ## Wandb Report 
 
-
-<iframe src="https://wandb.ai/katja-gegg/multi-period-forecasting/reports/Multi-Period-Forecasting-Report-Overall--VmlldzoxNDM5NTgxNg" style="border:none;height:1024px;width:100%">
+<!--<iframe src="https://wandb.ai/katja-gegg/multi-period-forecasting/reports/Multi-Period-Forecasting-Report-Overall--VmlldzoxNDM5NTgxNg" style="border:none;height:1024px;width:100%">-->
+<iframe src="https://wandb.ai/katja-gegg/multi-period-forecasting/reports/Mehrperiodisches-Forecasting-f-r-dynamische-Entscheidungsfindung--VmlldzoxNDM5NTgxNg" style="border:none;height:1024px;width:100%">
