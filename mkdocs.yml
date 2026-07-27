@@ -140,9 +140,9 @@ nav:
 extra:  
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/Katja19/multi-period-forecasting
+      link: https://github.com/Katja19/ma-multi-period-forecasting-sc
     - icon: simple/weightsandbiases
       link: https://wandb.ai/katja-gegg/multi-period-forecasting
 
 copyright: |
-  &copy; 2025 <a href="https://github.com/Katja19/multi-period-forecasting"  target="_blank">Katja Gegg</a>
+  &copy; 2025 <a href="https://github.com/Katja19/ma-multi-period-forecasting-sc"  target="_blank">Katja Gegg</a>
