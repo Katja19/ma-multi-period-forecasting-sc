@@ -5,6 +5,8 @@ Universität: Julius-Maximilian Universität Würzburg
 ## Dokumentation
 Eine genauere Dokumentation findet sich hier: https://katja19.github.io/ma-multi-period-forecasting-sc/
 
+Eine kompakte Übersicht der Modellergebnisse finden Sie im zugehörigen W&B-Report: https://api.wandb.ai/links/katja-gegg/6l3fgyuc
+
 ## Setup-Anleitung (im VSC-Terminalfenster)
 1. Stelle sicher, dass du dich im Projektverzeichnis befindest.
 2. Erstelle eine virtuelle Umgebung `.venv`:
