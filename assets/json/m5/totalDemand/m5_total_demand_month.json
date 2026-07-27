@@ -1,0 +1,951 @@
+{
+    "data": [
+        {
+            "mode": "lines",
+            "name": "Total demand per month",
+            "x": [
+                "2011-02-01",
+                "2011-03-01",
+                "2011-04-01",
+                "2011-05-01",
+                "2011-06-01",
+                "2011-07-01",
+                "2011-08-01",
+                "2011-09-01",
+                "2011-10-01",
+                "2011-11-01",
+                "2011-12-01",
+                "2012-01-01",
+                "2012-02-01",
+                "2012-03-01",
+                "2012-04-01",
+                "2012-05-01",
+                "2012-06-01",
+                "2012-07-01",
+                "2012-08-01",
+                "2012-09-01",
+                "2012-10-01",
+                "2012-11-01",
+                "2012-12-01",
+                "2013-01-01",
+                "2013-02-01",
+                "2013-03-01",
+                "2013-04-01",
+                "2013-05-01",
+                "2013-06-01",
+                "2013-07-01",
+                "2013-08-01",
+                "2013-09-01",
+                "2013-10-01",
+                "2013-11-01",
+                "2013-12-01",
+                "2014-01-01",
+                "2014-02-01",
+                "2014-03-01",
+                "2014-04-01",
+                "2014-05-01",
+                "2014-06-01",
+                "2014-07-01",
+                "2014-08-01",
+                "2014-09-01",
+                "2014-10-01",
+                "2014-11-01",
+                "2014-12-01",
+                "2015-01-01",
+                "2015-02-01",
+                "2015-03-01",
+                "2015-04-01",
+                "2015-05-01",
+                "2015-06-01",
+                "2015-07-01",
+                "2015-08-01",
+                "2015-09-01",
+                "2015-10-01",
+                "2015-11-01",
+                "2015-12-01",
+                "2016-01-01",
+                "2016-02-01",
+                "2016-03-01",
+                "2016-04-01",
+                "2016-05-01",
+                "2016-06-01"
+            ],
+            "y": [
+                6606.999999999999,
+                62234.99999999999,
+                65529.99999999999,
+                66406.0,
+                69350.0,
+                76521.0,
+                82551.0,
+                67502.0,
+                68565.0,
+                65768.0,
+                71841.0,
+                54536.99999999999,
+                56747.99999999999,
+                63537.99999999999,
+                62880.99999999999,
+                69469.0,
+                74741.0,
+                73588.0,
+                79417.0,
+                67600.0,
+                65439.99999999999,
+                66500.0,
+                69213.0,
+                51213.99999999999,
+                58507.99999999999,
+                65843.0,
+                58403.99999999999,
+                64646.99999999999,
+                68667.0,
+                69699.0,
+                76014.0,
+                62988.99999999999,
+                61509.99999999999,
+                59517.99999999999,
+                60880.99999999999,
+                46820.99999999999,
+                50364.99999999999,
+                56359.99999999999,
+                55997.99999999999,
+                61021.99999999999,
+                62311.99999999999,
+                69242.0,
+                74292.0,
+                59472.99999999999,
+                59727.99999999999,
+                57178.99999999999,
+                60584.99999999999,
+                47567.99999999999,
+                49296.99999999999,
+                53485.99999999999,
+                51886.99999999999,
+                56170.99999999999,
+                60260.99999999999,
+                68784.0,
+                73592.0,
+                59546.99999999999,
+                61466.99999999999,
+                56933.99999999999,
+                60664.99999999999,
+                47904.99999999999,
+                54224.99999999999,
+                57075.99999999999,
+                57064.99999999999,
+                61945.99999999999,
+                42968.0
+            ],
+            "type": "scatter",
+            "hovertemplate": "%{x|%Y-%m-%d}<br>Total demand: %{y}"
+        }
+    ],
+    "layout": {
+        "template": {
+            "data": {
+                "histogram2dcontour": [
+                    {
+                        "type": "histogram2dcontour",
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "colorscale": [
+                            [
+                                0.0,
+                                "#0d0887"
+                            ],
+                            [
+                                0.1111111111111111,
+                                "#46039f"
+                            ],
+                            [
+                                0.2222222222222222,
+                                "#7201a8"
+                            ],
+                            [
+                                0.3333333333333333,
+                                "#9c179e"
+                            ],
+                            [
+                                0.4444444444444444,
+                                "#bd3786"
+                            ],
+                            [
+                                0.5555555555555556,
+                                "#d8576b"
+                            ],
+                            [
+                                0.6666666666666666,
+                                "#ed7953"
+                            ],
+                            [
+                                0.7777777777777778,
+                                "#fb9f3a"
+                            ],
+                            [
+                                0.8888888888888888,
+                                "#fdca26"
+                            ],
+                            [
+                                1.0,
+                                "#f0f921"
+                            ]
+                        ]
+                    }
+                ],
+                "choropleth": [
+                    {
+                        "type": "choropleth",
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        }
+                    }
+                ],
+                "histogram2d": [
+                    {
+                        "type": "histogram2d",
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "colorscale": [
+                            [
+                                0.0,
+                                "#0d0887"
+                            ],
+                            [
+                                0.1111111111111111,
+                                "#46039f"
+                            ],
+                            [
+                                0.2222222222222222,
+                                "#7201a8"
+                            ],
+                            [
+                                0.3333333333333333,
+                                "#9c179e"
+                            ],
+                            [
+                                0.4444444444444444,
+                                "#bd3786"
+                            ],
+                            [
+                                0.5555555555555556,
+                                "#d8576b"
+                            ],
+                            [
+                                0.6666666666666666,
+                                "#ed7953"
+                            ],
+                            [
+                                0.7777777777777778,
+                                "#fb9f3a"
+                            ],
+                            [
+                                0.8888888888888888,
+                                "#fdca26"
+                            ],
+                            [
+                                1.0,
+                                "#f0f921"
+                            ]
+                        ]
+                    }
+                ],
+                "heatmap": [
+                    {
+                        "type": "heatmap",
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "colorscale": [
+                            [
+                                0.0,
+                                "#0d0887"
+                            ],
+                            [
+                                0.1111111111111111,
+                                "#46039f"
+                            ],
+                            [
+                                0.2222222222222222,
+                                "#7201a8"
+                            ],
+                            [
+                                0.3333333333333333,
+                                "#9c179e"
+                            ],
+                            [
+                                0.4444444444444444,
+                                "#bd3786"
+                            ],
+                            [
+                                0.5555555555555556,
+                                "#d8576b"
+                            ],
+                            [
+                                0.6666666666666666,
+                                "#ed7953"
+                            ],
+                            [
+                                0.7777777777777778,
+                                "#fb9f3a"
+                            ],
+                            [
+                                0.8888888888888888,
+                                "#fdca26"
+                            ],
+                            [
+                                1.0,
+                                "#f0f921"
+                            ]
+                        ]
+                    }
+                ],
+                "contourcarpet": [
+                    {
+                        "type": "contourcarpet",
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        }
+                    }
+                ],
+                "contour": [
+                    {
+                        "type": "contour",
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "colorscale": [
+                            [
+                                0.0,
+                                "#0d0887"
+                            ],
+                            [
+                                0.1111111111111111,
+                                "#46039f"
+                            ],
+                            [
+                                0.2222222222222222,
+                                "#7201a8"
+                            ],
+                            [
+                                0.3333333333333333,
+                                "#9c179e"
+                            ],
+                            [
+                                0.4444444444444444,
+                                "#bd3786"
+                            ],
+                            [
+                                0.5555555555555556,
+                                "#d8576b"
+                            ],
+                            [
+                                0.6666666666666666,
+                                "#ed7953"
+                            ],
+                            [
+                                0.7777777777777778,
+                                "#fb9f3a"
+                            ],
+                            [
+                                0.8888888888888888,
+                                "#fdca26"
+                            ],
+                            [
+                                1.0,
+                                "#f0f921"
+                            ]
+                        ]
+                    }
+                ],
+                "surface": [
+                    {
+                        "type": "surface",
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "colorscale": [
+                            [
+                                0.0,
+                                "#0d0887"
+                            ],
+                            [
+                                0.1111111111111111,
+                                "#46039f"
+                            ],
+                            [
+                                0.2222222222222222,
+                                "#7201a8"
+                            ],
+                            [
+                                0.3333333333333333,
+                                "#9c179e"
+                            ],
+                            [
+                                0.4444444444444444,
+                                "#bd3786"
+                            ],
+                            [
+                                0.5555555555555556,
+                                "#d8576b"
+                            ],
+                            [
+                                0.6666666666666666,
+                                "#ed7953"
+                            ],
+                            [
+                                0.7777777777777778,
+                                "#fb9f3a"
+                            ],
+                            [
+                                0.8888888888888888,
+                                "#fdca26"
+                            ],
+                            [
+                                1.0,
+                                "#f0f921"
+                            ]
+                        ]
+                    }
+                ],
+                "mesh3d": [
+                    {
+                        "type": "mesh3d",
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        }
+                    }
+                ],
+                "scatter": [
+                    {
+                        "fillpattern": {
+                            "fillmode": "overlay",
+                            "size": 10,
+                            "solidity": 0.2
+                        },
+                        "type": "scatter"
+                    }
+                ],
+                "parcoords": [
+                    {
+                        "type": "parcoords",
+                        "line": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        }
+                    }
+                ],
+                "scatterpolargl": [
+                    {
+                        "type": "scatterpolargl",
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        }
+                    }
+                ],
+                "bar": [
+                    {
+                        "error_x": {
+                            "color": "#2a3f5f"
+                        },
+                        "error_y": {
+                            "color": "#2a3f5f"
+                        },
+                        "marker": {
+                            "line": {
+                                "color": "#E5ECF6",
+                                "width": 0.5
+                            },
+                            "pattern": {
+                                "fillmode": "overlay",
+                                "size": 10,
+                                "solidity": 0.2
+                            }
+                        },
+                        "type": "bar"
+                    }
+                ],
+                "scattergeo": [
+                    {
+                        "type": "scattergeo",
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        }
+                    }
+                ],
+                "scatterpolar": [
+                    {
+                        "type": "scatterpolar",
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        }
+                    }
+                ],
+                "histogram": [
+                    {
+                        "marker": {
+                            "pattern": {
+                                "fillmode": "overlay",
+                                "size": 10,
+                                "solidity": 0.2
+                            }
+                        },
+                        "type": "histogram"
+                    }
+                ],
+                "scattergl": [
+                    {
+                        "type": "scattergl",
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        }
+                    }
+                ],
+                "scatter3d": [
+                    {
+                        "type": "scatter3d",
+                        "line": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        }
+                    }
+                ],
+                "scattermap": [
+                    {
+                        "type": "scattermap",
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        }
+                    }
+                ],
+                "scattermapbox": [
+                    {
+                        "type": "scattermapbox",
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        }
+                    }
+                ],
+                "scatterternary": [
+                    {
+                        "type": "scatterternary",
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        }
+                    }
+                ],
+                "scattercarpet": [
+                    {
+                        "type": "scattercarpet",
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        }
+                    }
+                ],
+                "carpet": [
+                    {
+                        "aaxis": {
+                            "endlinecolor": "#2a3f5f",
+                            "gridcolor": "white",
+                            "linecolor": "white",
+                            "minorgridcolor": "white",
+                            "startlinecolor": "#2a3f5f"
+                        },
+                        "baxis": {
+                            "endlinecolor": "#2a3f5f",
+                            "gridcolor": "white",
+                            "linecolor": "white",
+                            "minorgridcolor": "white",
+                            "startlinecolor": "#2a3f5f"
+                        },
+                        "type": "carpet"
+                    }
+                ],
+                "table": [
+                    {
+                        "cells": {
+                            "fill": {
+                                "color": "#EBF0F8"
+                            },
+                            "line": {
+                                "color": "white"
+                            }
+                        },
+                        "header": {
+                            "fill": {
+                                "color": "#C8D4E3"
+                            },
+                            "line": {
+                                "color": "white"
+                            }
+                        },
+                        "type": "table"
+                    }
+                ],
+                "barpolar": [
+                    {
+                        "marker": {
+                            "line": {
+                                "color": "#E5ECF6",
+                                "width": 0.5
+                            },
+                            "pattern": {
+                                "fillmode": "overlay",
+                                "size": 10,
+                                "solidity": 0.2
+                            }
+                        },
+                        "type": "barpolar"
+                    }
+                ],
+                "pie": [
+                    {
+                        "automargin": true,
+                        "type": "pie"
+                    }
+                ]
+            },
+            "layout": {
+                "autotypenumbers": "strict",
+                "colorway": [
+                    "#636efa",
+                    "#EF553B",
+                    "#00cc96",
+                    "#ab63fa",
+                    "#FFA15A",
+                    "#19d3f3",
+                    "#FF6692",
+                    "#B6E880",
+                    "#FF97FF",
+                    "#FECB52"
+                ],
+                "font": {
+                    "color": "#2a3f5f"
+                },
+                "hovermode": "closest",
+                "hoverlabel": {
+                    "align": "left"
+                },
+                "paper_bgcolor": "white",
+                "plot_bgcolor": "#E5ECF6",
+                "polar": {
+                    "bgcolor": "#E5ECF6",
+                    "angularaxis": {
+                        "gridcolor": "white",
+                        "linecolor": "white",
+                        "ticks": ""
+                    },
+                    "radialaxis": {
+                        "gridcolor": "white",
+                        "linecolor": "white",
+                        "ticks": ""
+                    }
+                },
+                "ternary": {
+                    "bgcolor": "#E5ECF6",
+                    "aaxis": {
+                        "gridcolor": "white",
+                        "linecolor": "white",
+                        "ticks": ""
+                    },
+                    "baxis": {
+                        "gridcolor": "white",
+                        "linecolor": "white",
+                        "ticks": ""
+                    },
+                    "caxis": {
+                        "gridcolor": "white",
+                        "linecolor": "white",
+                        "ticks": ""
+                    }
+                },
+                "coloraxis": {
+                    "colorbar": {
+                        "outlinewidth": 0,
+                        "ticks": ""
+                    }
+                },
+                "colorscale": {
+                    "sequential": [
+                        [
+                            0.0,
+                            "#0d0887"
+                        ],
+                        [
+                            0.1111111111111111,
+                            "#46039f"
+                        ],
+                        [
+                            0.2222222222222222,
+                            "#7201a8"
+                        ],
+                        [
+                            0.3333333333333333,
+                            "#9c179e"
+                        ],
+                        [
+                            0.4444444444444444,
+                            "#bd3786"
+                        ],
+                        [
+                            0.5555555555555556,
+                            "#d8576b"
+                        ],
+                        [
+                            0.6666666666666666,
+                            "#ed7953"
+                        ],
+                        [
+                            0.7777777777777778,
+                            "#fb9f3a"
+                        ],
+                        [
+                            0.8888888888888888,
+                            "#fdca26"
+                        ],
+                        [
+                            1.0,
+                            "#f0f921"
+                        ]
+                    ],
+                    "sequentialminus": [
+                        [
+                            0.0,
+                            "#0d0887"
+                        ],
+                        [
+                            0.1111111111111111,
+                            "#46039f"
+                        ],
+                        [
+                            0.2222222222222222,
+                            "#7201a8"
+                        ],
+                        [
+                            0.3333333333333333,
+                            "#9c179e"
+                        ],
+                        [
+                            0.4444444444444444,
+                            "#bd3786"
+                        ],
+                        [
+                            0.5555555555555556,
+                            "#d8576b"
+                        ],
+                        [
+                            0.6666666666666666,
+                            "#ed7953"
+                        ],
+                        [
+                            0.7777777777777778,
+                            "#fb9f3a"
+                        ],
+                        [
+                            0.8888888888888888,
+                            "#fdca26"
+                        ],
+                        [
+                            1.0,
+                            "#f0f921"
+                        ]
+                    ],
+                    "diverging": [
+                        [
+                            0,
+                            "#8e0152"
+                        ],
+                        [
+                            0.1,
+                            "#c51b7d"
+                        ],
+                        [
+                            0.2,
+                            "#de77ae"
+                        ],
+                        [
+                            0.3,
+                            "#f1b6da"
+                        ],
+                        [
+                            0.4,
+                            "#fde0ef"
+                        ],
+                        [
+                            0.5,
+                            "#f7f7f7"
+                        ],
+                        [
+                            0.6,
+                            "#e6f5d0"
+                        ],
+                        [
+                            0.7,
+                            "#b8e186"
+                        ],
+                        [
+                            0.8,
+                            "#7fbc41"
+                        ],
+                        [
+                            0.9,
+                            "#4d9221"
+                        ],
+                        [
+                            1,
+                            "#276419"
+                        ]
+                    ]
+                },
+                "xaxis": {
+                    "gridcolor": "white",
+                    "linecolor": "white",
+                    "ticks": "",
+                    "title": {
+                        "standoff": 15
+                    },
+                    "zerolinecolor": "white",
+                    "automargin": true,
+                    "zerolinewidth": 2
+                },
+                "yaxis": {
+                    "gridcolor": "white",
+                    "linecolor": "white",
+                    "ticks": "",
+                    "title": {
+                        "standoff": 15
+                    },
+                    "zerolinecolor": "white",
+                    "automargin": true,
+                    "zerolinewidth": 2
+                },
+                "scene": {
+                    "xaxis": {
+                        "backgroundcolor": "#E5ECF6",
+                        "gridcolor": "white",
+                        "linecolor": "white",
+                        "showbackground": true,
+                        "ticks": "",
+                        "zerolinecolor": "white",
+                        "gridwidth": 2
+                    },
+                    "yaxis": {
+                        "backgroundcolor": "#E5ECF6",
+                        "gridcolor": "white",
+                        "linecolor": "white",
+                        "showbackground": true,
+                        "ticks": "",
+                        "zerolinecolor": "white",
+                        "gridwidth": 2
+                    },
+                    "zaxis": {
+                        "backgroundcolor": "#E5ECF6",
+                        "gridcolor": "white",
+                        "linecolor": "white",
+                        "showbackground": true,
+                        "ticks": "",
+                        "zerolinecolor": "white",
+                        "gridwidth": 2
+                    }
+                },
+                "shapedefaults": {
+                    "line": {
+                        "color": "#2a3f5f"
+                    }
+                },
+                "annotationdefaults": {
+                    "arrowcolor": "#2a3f5f",
+                    "arrowhead": 0,
+                    "arrowwidth": 1
+                },
+                "geo": {
+                    "bgcolor": "white",
+                    "landcolor": "#E5ECF6",
+                    "subunitcolor": "white",
+                    "showland": true,
+                    "showlakes": true,
+                    "lakecolor": "white"
+                },
+                "title": {
+                    "x": 0.05
+                },
+                "mapbox": {
+                    "style": "light"
+                }
+            }
+        },
+        "legend": {
+            "orientation": "h",
+            "yanchor": "bottom",
+            "y": 1.05,
+            "xanchor": "right",
+            "x": 1
+        },
+        "title": {
+            "text": "Total demand per month"
+        },
+        "xaxis": {
+            "title": {
+                "text": "Month"
+            },
+            "type": "date",
+            "range": [
+                "2011-01-01",
+                "2016-07-01"
+            ],
+            "tick0": "2011-01-01",
+            "dtick": "M6",
+            "tickformat": "%b %Y"
+        },
+        "yaxis": {
+            "title": {
+                "text": "Total demand"
+            }
+        },
+        "autosize": true
+    }
+}
